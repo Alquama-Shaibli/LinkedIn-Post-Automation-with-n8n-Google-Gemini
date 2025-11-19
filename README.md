@@ -1,5 +1,10 @@
+<img width="1680" height="468" alt="Screenshot 2025-11-19 230128" src="https://github.com/user-attachments/assets/93ff01f5-b6ea-4e0c-a9a9-fe0e65c2230c" />
+
+
+
 # LinkedIn-Post-Automation-with-n8n-Google-Gemini
 Automate LinkedIn posting with n8n, Google Gemini AI, and Google Sheets! This workflow fetches topics, creates engaging posts using AI, publishes directly to LinkedIn, and updates your sheet with post status — boosting your online presence with zero manual effort. 🚀✨
+
 
 # Automate your LinkedIn posting process using n8n, Google Gemini AI, and Google Sheets! This workflow:
 
