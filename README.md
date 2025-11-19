@@ -24,34 +24,48 @@ Automate LinkedIn posting with n8n, Google Gemini AI, and Google Sheets! This wo
 # [Google Sheets: Update Row]
 
 
-1. Schedule Trigger ⏰
+# 1. Schedule Trigger ⏰
+
 ~Automatically triggers at a specified hour (e.g., every day at 10 PM).
+
 
 ~Initiates the automation sequence, so you don’t have to do it manually.
 
-2. Get Rows from Google Sheets 📑
+# 2. Get Rows from Google Sheets 📑
+
 ~Connects to your sheet and fetches rows where the status is “Not posted”.
+
 
 ~Ensures only new/unposted topics are considered.
 
-3. AI-powered Post Generation 🤖
+# 3. AI-powered Post Generation 🤖
+
 ~Gemini AI receives the topic and generates a concise, engaging LinkedIn post.
+
 
 ~Uses a custom prompt to ensure:
 
+
 ~Under 250 words 🖋️
+
 
 ~Includes a hook and call to action
 
+
 ~No AI boilerplate language—just clean content!
 
-4. Publish to LinkedIn 🌐
+# 4. Publish to LinkedIn 🌐
+
 ~The generated content is posted directly to your LinkedIn account.
+
 
 ~Seamless integration with LinkedIn OAuth credentials.
 
-5. Update Google Sheets 🗂️
+
+# 5. Update Google Sheets 🗂️
+
 ~After posting, the workflow updates the original row:
+
 
 ~Sets status to “posted”
 
