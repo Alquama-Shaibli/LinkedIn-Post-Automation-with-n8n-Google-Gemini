@@ -1,9 +1,7 @@
 # LinkedIn-Post-Automation-with-n8n-Google-Gemini
 Automate LinkedIn posting with n8n, Google Gemini AI, and Google Sheets! This workflow fetches topics, creates engaging posts using AI, publishes directly to LinkedIn, and updates your sheet with post status — boosting your online presence with zero manual effort. 🚀✨
 
-#LinkedIn Post Automation with n8n & Google Gemini 🤖✨
-
-Automate your LinkedIn posting process using n8n, Google Gemini AI, and Google Sheets! This workflow:
+# Automate your LinkedIn posting process using n8n, Google Gemini AI, and Google Sheets! This workflow:
 
 1-Fetches post topics from Google Sheets 📋
 
@@ -13,7 +11,18 @@ Automate your LinkedIn posting process using n8n, Google Gemini AI, and Google S
 
 4-Updates Google Sheets with post status and timestamp 📝
 
-#How It Works 👇
+# How It Works 👇
+
+# [Schedule Trigger]
+       ⬇️
+# [Google Sheets: Get Rows (Not posted)]
+       ⬇️
+# [Google Gemini AI: Generate Post]
+       ⬇️
+# [LinkedIn: Publish Post]
+       ⬇️
+# [Google Sheets: Update Row]
+
 
 1. Schedule Trigger ⏰
 ~Automatically triggers at a specified hour (e.g., every day at 10 PM).
